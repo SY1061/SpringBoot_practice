@@ -1,0 +1,33 @@
+GET localhost:8080/book
+Content-Type: application/json
+
+####
+
+GET localhost:8080/book/2
+Content-Type: application/json
+
+####
+
+POST localhost:8080/book
+Content-Type: application/json
+
+{
+  "id": 2,
+  "name": "두 번째 책"
+}
+
+####
+
+PUT localhost:8080/book
+Content-Type: application/json
+
+{
+  "id": 2,
+  "name": "책 이름 수정"
+}
+
+####
+
+DELETE localhost:8080/book/2
+Content-Type: application/json
+
